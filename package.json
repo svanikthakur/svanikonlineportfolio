@@ -1,0 +1,14 @@
+{
+  "name": "svanik-portfolio",
+  "version": "1.0.0",
+  "description": "Svanik's Online Portfolio",
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc --watch",
+    "dev": "npx live-server --open=Home/index.html"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "live-server": "^1.2.2"
+  }
+}
