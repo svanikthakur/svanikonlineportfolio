@@ -6,21 +6,13 @@
   <title>Svanik | Resume</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,400;1,9..144,500&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <link rel="icon" href="../favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="../src/styles/main.css">
 </head>
 <body>
-  <div class="bg-effects">
-    <div class="bg-grid"></div>
-    <div class="bg-orb bg-orb--1"></div>
-    <div class="bg-orb bg-orb--2"></div>
-    <div class="bg-orb bg-orb--3"></div>
-    <div class="bg-noise"></div>
-  </div>
-
   <nav>
-    <a class="logo" href="../Home/index.html">S<span>.</span></a>
+    <a class="logo" href="../Home/index.html">Svanik Thakur<span>.</span></a>
     <button class="menu-toggle" aria-label="Toggle menu">
       <span></span>
       <span></span>
@@ -41,11 +33,102 @@
       <p>My education, experience, and achievements.</p>
     </div>
 
-    <section class="resume-display fade-in">
-      <div class="resume-image">
-        <img src="SvanikThakurResume.jpg" alt="Svanik Thakur's Resume">
+    <article class="resume-doc fade-in">
+      <header class="resume-doc__header">
+        <h2 class="resume-doc__name">Svanik Thakur</h2>
+        <div class="resume-doc__contact">
+          <p>Bay Area, CA</p>
+          <p><strong>thakur7320@mydusd.org</strong></p>
+        </div>
+      </header>
+
+      <div class="resume-doc__grid">
+        <div class="resume-doc__main">
+          <section class="resume-block">
+            <h3 class="resume-block__title">Experience</h3>
+
+            <div class="resume-entry">
+              <h4 class="resume-entry__role">
+                Dublin United Football Club <span class="resume-entry__sep">·</span> <em>Referee</em>
+              </h4>
+              <p class="resume-entry__date">September 2025 &ndash; Present</p>
+              <p class="resume-entry__desc">
+                Gained experience working under pressure and improved on decision making.
+              </p>
+            </div>
+
+            <div class="resume-entry">
+              <h4 class="resume-entry__role">
+                Inchins Bamboo Garden <span class="resume-entry__sep">·</span> <em>Expeditor</em>
+              </h4>
+              <p class="resume-entry__date">January 2025 &ndash; March 2025</p>
+              <p class="resume-entry__desc">
+                Worked with chefs and servers to improve flow of food coming in and going out from the kitchen.
+              </p>
+            </div>
+          </section>
+
+          <section class="resume-block">
+            <h3 class="resume-block__title">Education</h3>
+
+            <div class="resume-entry">
+              <h4 class="resume-entry__role">Emerald High School</h4>
+              <p class="resume-entry__date">August 2025 &ndash; Present</p>
+              <p class="resume-entry__desc">
+                Currently attending Emerald High School in Dublin, CA and currently in my freshman year at the school where I am currently doing Computer Science.
+              </p>
+            </div>
+          </section>
+
+          <section class="resume-block">
+            <h3 class="resume-block__title">Volunteering</h3>
+
+            <div class="resume-entry">
+              <h4 class="resume-entry__role">
+                Kids Against Hunger <span class="resume-entry__sep">·</span> <em>Food Packer</em>
+              </h4>
+              <p class="resume-entry__desc">
+                Worked as a food packer at the Kids Against Hunger facility in Pleasanton, CA to work towards providing food for children who are not able to afford it.
+              </p>
+            </div>
+          </section>
+
+          <section class="resume-block">
+            <h3 class="resume-block__title">Co-Curricular</h3>
+
+            <div class="resume-entry">
+              <h4 class="resume-entry__role">Emerald Badminton Team</h4>
+              <p class="resume-entry__desc">
+                On the Junior Varsity Team for Emerald High and play doubles badminton which promotes teamwork and positive decision making.
+              </p>
+            </div>
+
+            <div class="resume-entry">
+              <h4 class="resume-entry__role">Speech and Debate</h4>
+              <p class="resume-entry__desc">
+                Work on cases through the format of Lincoln Douglas which involves heavy research and also Impromptu speaking which involves time pressure.
+              </p>
+            </div>
+          </section>
+        </div>
+
+        <aside class="resume-doc__side">
+          <section class="resume-block">
+            <h3 class="resume-block__title">Skills</h3>
+            <p class="resume-side__item">Front-end coding skills using HTML and TypeScript.</p>
+            <p class="resume-side__item">Experience with backend coding using Python.</p>
+            <p class="resume-side__item">Able to use MySQL and frequently use it for storing data in tables.</p>
+          </section>
+
+          <section class="resume-block">
+            <h3 class="resume-block__title">Languages</h3>
+            <p class="resume-side__item">English, primary language and have been speaking it.</p>
+            <p class="resume-side__item">Hindi, secondary language and can speak only but am not able to write.</p>
+            <p class="resume-side__item">Spanish, learning currently but am able to speak half-fluently and am able to write with the same confidence.</p>
+          </section>
+        </aside>
       </div>
-    </section>
+    </article>
   </main>
 
   <footer>
@@ -55,7 +138,6 @@
       <li><a href="../Resume/index.html">Resume</a></li>
       <li><a href="../Contact/index.html">Contact</a></li>
     </ul>
-    <p>&copy; 2026 Svanik. All rights reserved.</p>
   </footer>
 
   <script type="module" src="../dist/main.js"></script>
